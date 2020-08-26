@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>{{message}}</p>
+<form action="" method="POST">
+    {%csrf_token%}
+    <input type="text" name="name" id="id_name" placeholder="Member's name">
+    <input type="text" name="gmail" id="id_mail" placeholder="Please enter your Email Address" size="25">
+    <button type="submit">Save</button>
+</form>
+
+</body>
+</html>
